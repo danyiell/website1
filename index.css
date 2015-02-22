@@ -1,0 +1,217 @@
+.header{
+  display:inline-block;
+  background-color:#013362;
+  width:80%;
+  padding:0px;
+  margin:0px;
+
+}
+.header p{
+  font-family:serif;
+}
+#comp_info{
+  font-family:serif;
+  font-weight:bold;
+  font-size:32px;
+  float:right;
+  color:white;
+  padding-right:80px;
+  margin:5px 0;
+}
+#co_logo{
+  float:left;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:0px;
+  padding-bottom:20px;
+}
+#co_title{
+  font-size:47px;
+  font-weight:bold;
+}
+#p_hdr{
+  font-size:9px;
+  color:#020a7a;
+  margin:3px 0;
+}
+#toolrent{
+  font-size:32px;
+}
+#lower{
+  font-size:23px;
+}
+.content{
+  display:inline-block;
+  width:80%;
+  padding:0;
+  margin:0;
+}
+.sidebar{
+  float:left;
+  width:23%;
+  padding:0;
+  margin:0;
+}
+#side_nav{
+  color:gray;
+}
+#side_info{
+  padding-left:10px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+}
+#serv_img{
+  padding-top:15px;
+  padding-left:25px;
+  padding-bottom:10px;
+}
+#flag_img{
+  padding-top:5px;
+  padding-left:25px;
+  padding-bottom:10px;
+}
+ul li{
+  list-style-type:none;
+  font-family:Helvetica, Arial, sans-serif;
+}
+li a:link {
+    text-decoration: none;
+    color:gray;
+    font-family:sans-serif;
+    font-size:14px;
+    font-weight:bold;
+}
+
+li a:visited {
+    text-decoration: none;
+    color:gray;
+    font-family:sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    padding-top:5px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color:gray;
+    font-family:sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    background:lightgray;
+    padding-top:5px;
+}
+
+li a:active {
+    text-decoration: none;
+    color:gray;
+    font-family:sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    margin-top:5px;
+}
+#side_info{
+  float:left;
+  background-color:#ff7e2e;
+  font-size:20px;
+  font-family:sans-serif;
+}
+.body_text{
+  width:75%;
+  float:right;
+  padding:0;
+  margin:0;
+}
+.body_text .welcome{
+  font-family:sans-serif;
+  font-size:29;
+  font-weight:bold;
+  background-color:#ff7e2e;
+  margin:0;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.ourmssn{
+  font-size:20px;
+  font-weight:bold;
+  font-family:sans-serif;
+}
+.lowrental{
+  text-decoration:underline;
+  font-weight:bold;
+  font-size:20px;
+  font-family:sans-serif;
+}
+.orng_box{
+  border:solid;
+  border-color:#ff7e2e;
+  border-width:8px;
+  font-size:18px;
+  font-family:sans-serif;
+}
+p{
+  margin:5px 0;
+  font-size:17px;
+  font-family:sans-serif;
+}
+#hours{
+  font-size:18px;
+  font-family:sans-serif;
+  text-decoration:underline;
+}
+
+.footer{
+  display:inline-block;
+  background-color:#013362;
+  font-family:serif;
+  font-size:10px;
+  width:80%;
+  padding:15px;
+  margin:0px;
+}
+
+#ftr_img{
+  float:right;
+  width:30%;
+
+}
+#ftr_txt{
+  width:65%;
+  float:left;
+  color:white;
+  font-family:serif;
+  font-size:10px;
+
+}
+
+#ftr_links a:link{
+  padding:0;
+  margin:0;
+  color:white;
+  font-family:sans-serif;
+  font-size:14px;
+}
+#ftr_links a:visited{
+  padding:0;
+  margin:0;
+  color:white;
+  font-family:sans-serif;
+  font-size:14px;
+}
+#ftr_links a:hover{
+  padding:0;
+  margin:0;
+  color:white;
+  font-family:sans-serif;
+  font-size:14px;
+}
+#ftr_links a:active {
+  padding:0;
+  margin:0;
+  color:white;
+  font-family:sans-serif;
+  font-size:14px;
+}
+#serving{
+  font-size:15;
+}
