@@ -1,14 +1,15 @@
+/*Header Styles*/
 .header{
   display:inline-block;
   background-color:#013362;
-  width:80%;
+  width:800px;
   padding:0px;
   margin:0px;
-
 }
 .header p{
   font-family:serif;
 }
+/*Company Header Element Styles*/
 #comp_info{
   font-family:serif;
   font-weight:bold;
@@ -17,13 +18,6 @@
   color:white;
   padding-right:80px;
   margin:5px 0;
-}
-#co_logo{
-  float:left;
-  padding-top:20px;
-  padding-left:20px;
-  padding-right:0px;
-  padding-bottom:20px;
 }
 #co_title{
   font-size:47px;
@@ -40,15 +34,25 @@
 #lower{
   font-size:23px;
 }
+/*Company Logo Styles*/
+#co_logo{
+  float:left;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:0px;
+  padding-bottom:20px;
+}
+/*main content styles*/
 .content{
   display:inline-block;
-  width:80%;
+  width:800px;
   padding:0;
   margin:0;
 }
+/*beginning of side bar styles*/
 .sidebar{
   float:left;
-  width:23%;
+  width:190px;
   padding:0;
   margin:0;
 }
@@ -58,19 +62,21 @@
 #side_info{
   padding-left:10px;
   padding-top:10px;
-  padding-right:10px;
   padding-bottom:10px;
 }
 #serv_img{
   padding-top:15px;
-  padding-left:25px;
+  padding-left:10px;
   padding-bottom:10px;
+  padding-right:10px;
 }
 #flag_img{
   padding-top:5px;
-  padding-left:25px;
+  padding-left:10px;
   padding-bottom:10px;
+  padding-right:10px;
 }
+/*sidebar links*/
 ul li{
   list-style-type:none;
   font-family:Helvetica, Arial, sans-serif;
@@ -79,7 +85,7 @@ li a:link {
     text-decoration: none;
     color:gray;
     font-family:sans-serif;
-    font-size:14px;
+    font-size:13px;
     font-weight:bold;
 }
 
@@ -87,7 +93,7 @@ li a:visited {
     text-decoration: none;
     color:gray;
     font-family:sans-serif;
-    font-size:14px;
+    font-size:13px;
     font-weight:bold;
     padding-top:5px;
 }
@@ -96,7 +102,7 @@ li a:hover {
     text-decoration: none;
     color:gray;
     font-family:sans-serif;
-    font-size:14px;
+    font-size:13px;
     font-weight:bold;
     background:lightgray;
     padding-top:5px;
@@ -106,7 +112,7 @@ li a:active {
     text-decoration: none;
     color:gray;
     font-family:sans-serif;
-    font-size:14px;
+    font-size:13px;
     font-weight:bold;
     margin-top:5px;
 }
@@ -116,8 +122,9 @@ li a:active {
   font-size:20px;
   font-family:sans-serif;
 }
+/*main content box styles*/
 .body_text{
-  width:75%;
+  width:590px;
   float:right;
   padding:0;
   margin:0;
@@ -159,31 +166,43 @@ p{
   font-family:sans-serif;
   text-decoration:underline;
 }
-
+/*Footer styles*/
 .footer{
   display:inline-block;
   background-color:#013362;
-  font-family:serif;
+  font-family:sans-serif;
   font-size:10px;
-  width:80%;
+  width:800px;
   padding:15px;
   margin:0px;
 }
-
+#frst_lns{
+  font-family:serif;
+}
 #ftr_img{
   float:right;
-  width:30%;
-
+  width:250px;
+  padding-right:15px;
 }
 #ftr_txt{
-  width:65%;
+  width:520px;
   float:left;
   color:white;
   font-family:serif;
   font-size:10px;
 
 }
-
+#dlvry{
+  font-family:serif;
+}
+#serving{
+  font-size:15;
+}
+#srvg_list{
+  font-family:sans-serif;
+  font-size:12px;
+}
+/*footer links*/
 #ftr_links a:link{
   padding:0;
   margin:0;
@@ -211,7 +230,4 @@ p{
   color:white;
   font-family:sans-serif;
   font-size:14px;
-}
-#serving{
-  font-size:15;
 }
